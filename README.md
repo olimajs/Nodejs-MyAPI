@@ -31,7 +31,7 @@ Express.js es un framework para crear Web Apps, Web APIs o cualquier tipo de Web
 --------------------------
 ejecutando el server:
 ![expresserver jpg](https://user-images.githubusercontent.com/84105167/158836547-ffa06639-2487-4544-bcd2-1a330b7893ec.png)
------
+--------------------------
 Llamando por id(con express asi ahorro codígo):
 
 ![call-notesxid-en-express](https://user-images.githubusercontent.com/84105167/158836668-0d47d630-03ea-4955-a379-ec9c10e512fe.png)
