@@ -36,3 +36,45 @@ Llamando por id(con express asi ahorro codígo):
 
 ![call-notesxid-en-express](https://user-images.githubusercontent.com/84105167/158836668-0d47d630-03ea-4955-a379-ec9c10e512fe.png)
 
+<br>
+Añadiendo Delete a nuestra API:
+
+app.delete('/api/notes/:id', (request,response) => {
+    const id = Number(request.params.id)
+    notes = notes.filter(note => note.id != id)
+    response.status(204).end()
+});
+
+
+
+------
+![deletealAPI](https://user-images.githubusercontent.com/84105167/158898166-7c9eac82-8e72-4c2c-acda-83ad79126f26.png)
+
+
+
+
+-	Probamos la API con INSOMNIA, postwoman ya no existe cambiaron el nombre a Hoppscotch.
+Postman es buena alternativa, pero me gusta Insomnia entonces usamos insomnia.
+(Más sencilla que postman, pero tiene la app de desktop si quieres algo más complejo)
+
+------
+![Untitled](https://user-images.githubusercontent.com/84105167/158897780-ffc36c2d-dda5-4fea-9dbf-788f9787bb94.png)
+
+<br>
+-	Otra opción es en el mismo vsStudio con Rest Client
+------
+
+
+![testapiconvsstudio](https://user-images.githubusercontent.com/84105167/158897786-9aef7208-9bf2-4a57-bf3b-5ef400c63f05.png)
+---------------------------------------------------------
+
+
+<br>
+Ahora creamos un recurso en nuestra API con POST:
+------
+
+
+![post api jpg](https://user-images.githubusercontent.com/84105167/158897846-d81bbe58-3f1a-4e3c-911d-c76a01d82a68.png)
+
+
+
